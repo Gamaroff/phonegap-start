@@ -1,0 +1,83 @@
+<div ng-init="init()"></div>
+
+<select name="regions" id="regions" class="form-control" style="margin-right: 10px" ng-change="getRegion()" ng-model="viewModel.selected_region" ng-options="region.name for region in viewModel.regions"></select>
+
+<div class="clearfix"></div>
+<hr>
+
+<div class="list-group">
+    <a href="#branchModal" data-toggle="modal" ng-click="selectBranch(branch)" class="list-group-item" ng-repeat="branch in viewModel.branches | branchFilter:viewModel.selected_region">
+        <p class="list-group-item-text">{{ branch.name }}</p>
+    </a>
+
+</div>
+
+
+<div class="modal fade" id="branchModal" tabindex="-1" role="dialog" aria-labelledby="branchModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">{{viewModel.selected_branch.name}}</h4>
+            </div>
+            <div class="modal-body">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Contact Details</h3>
+                    </div>
+                    <div class="panel-body">
+                        <address>
+                            <address>
+                                <strong>Tel:</strong> {{viewModel.selected_branch.telephone1}}<br>
+                                <strong>Fax:</strong> {{viewModel.selected_branch.fax}}<br>
+                                <strong>Email:</strong> {{viewModel.selected_branch.email}}<br>
+                                <strong>Contact:</strong> {{viewModel.selected_branch.contact_person}}<br>
+                                <strong>website:</strong> {{viewModel.selected_branch.website}}<br>
+                            </address>
+                        </address>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Physical Address</h3>
+                    </div>
+                    <div class="panel-body">
+                        <address>
+                            {{viewModel.selected_branch.physical_address}}
+                        </address>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Postal Address</h3>
+                    </div>
+                    <div class="panel-body">
+                        <address>
+                            {{viewModel.selected_branch.postal_address}}
+                        </address>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Regional Manager</h3>
+                    </div>
+                    <div class="panel-body">
+                        <address>
+                            {{viewModel.selected_branch.regional_manager}}<br>
+                            {{viewModel.selected_branch.regional_manager_email}}<br>
+                        </address>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+</div>

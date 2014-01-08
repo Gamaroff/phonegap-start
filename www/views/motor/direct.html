@@ -1,0 +1,41 @@
+<div ng-init="init()"></div>
+
+<form class="form-horizontal" role="form">
+    <div class="form-group">
+        <label class="col-lg-2 control-label white-header">kW</label>
+        <div class="col-lg-10">
+            <select class="form-control">
+                <option>0.12</option>
+                <option>0.18</option>
+                <option>0.25</option>
+                <option>0.37</option>
+                <option>0.55</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-lg-2 control-label white-header">HP</label>
+        <div class="col-lg-10">
+            <select class="form-control">
+                <option>1/2</option>
+                <option>3/4</option>
+                <option>1</option>
+                <option>1.5</option>
+                <option>2</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-lg-2 control-label white-header">Voltage</label>
+        <div class="col-lg-10">
+            <select class="form-control">
+                <option>220V~240V 3 phase 50/60Hz</option>
+                <option>380V~440V 3 phase 60/60Hz</option>
+                <option>500V~550V 3 phase 50/60Hz</option>
+            </select>
+        </div>
+    </div>
+</form>
+<p>
+    <a ui-sref="motor.result" class="btn btn-success btn-lg" style="width: 100%">calculate</a>
+</p>

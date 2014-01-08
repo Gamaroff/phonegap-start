@@ -1,0 +1,24 @@
+<div class="section-header">
+    <h1 class="section-title">
+        <i class="fa fa-th"></i> Motor Control
+    </h1>
+    <hr>
+    <div class="clearfix"></div>
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs">
+        <li ng-class="{ active: $state.includes('motor.direct')}"><a data-toggle="tab" href="#SiteChildTab" ng-click="display('direct')">
+            Direct On-Line</a>
+        </li>
+        <li ng-class="{ active: $state.includes('motor.star')}"><a data-toggle="tab" href="#SiteChildTab" ng-click="display('star')">
+            Star Delta</a>
+        </li>
+
+    </ul>
+</div>
+<!-- Tab panes -->
+<div class="tab-content" style="z-index: 1">
+
+    <div ui-view="motor-content" ng-animate="{enter:'fade-enter'}" style="padding: 5px"></div>
+
+</div>

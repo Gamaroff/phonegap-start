@@ -1,0 +1,1 @@
+angular.module("PhoneGap",[]).factory("PhoneGap",["$q","$rootScope","$document",function(a,b,c){var d=a.defer();return c.bind("deviceready",function(){b.$apply(d.resolve)}),{ready:function(){return d.promise}}}]).run(["PhoneGap",function(){}]);

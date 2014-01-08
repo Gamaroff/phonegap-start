@@ -1,0 +1,287 @@
+[
+    {
+        "type"     : "Floodlights",
+        "products" : [
+            {
+                "id"  : 1,
+                "new" : {
+                    "name"       : "10W Floodlight",
+                    "image"      : "10W Floodlight.png",
+                    "calc_watts" : 10,
+                    "watts"      : 10.5
+                },
+                "old" : {
+                    "name"       : "75W QI HALOGEN FLOODLIGHT",
+                    "image"      : "75W QI HALOGEN FLOODLIGHT.jpg",
+                    "calc_watts" : 75,
+                    "watts"      : 75
+                }
+            },
+            {
+                "id"  : 2,
+                "new" : {
+                    "name"       : "20W Floodlight",
+                    "image"      : "20W Floodlight.png",
+                    "calc_watts" : 21,
+                    "watts"      : 20
+                },
+                "old" : {
+                    "name"       : "100W QI HALOGEN FLOODLIGHT",
+                    "image"      : "100W QI HALOGEN FLOODLIGHT.jpg",
+                    "calc_watts" : 100,
+                    "watts"      : 100
+                }
+            },
+            {
+                "id"  : 3,
+                "new" : {
+                    "name"       : "30W Floodlight",
+                    "image"      : "30W Floodlight.png",
+                    "calc_watts" : 31.5,
+                    "watts"      : 30
+                },
+                "old" : {
+                    "name"       : "200W QI HALOGEN FLOODLIGHT",
+                    "image"      : "200W QI HALOGEN FLOODLIGHT.jpg",
+                    "calc_watts" : 200,
+                    "watts"      : 200
+                }
+            },
+            {
+                "id"  : 4,
+                "new" : {
+                    "name"       : "50W Floodlight",
+                    "image"      : "50W Floodlight.png",
+                    "calc_watts" : 52.5,
+                    "watts"      : 50
+                },
+                "old" : {
+                    "name"       : "300W QI HALOGEN FLOODLIGHT",
+                    "image"      : "300W QI HALOGEN FLOODLIGHT.jpg",
+                    "calc_watts" : 300,
+                    "watts"      : 300
+                }
+            },
+            {
+                "id"  : 5,
+                "new" : {
+                    "name"       : "80W Floodlight",
+                    "image"      : "80W Floodlight.png",
+                    "calc_watts" : 84,
+                    "watts"      : 80
+                },
+                "old" : {
+                    "name"       : "500W QI HALOGEN FLOODLIGHT",
+                    "image"      : "500W QI HALOGEN FLOODLIGHT.jpg",
+                    "calc_watts" : 500,
+                    "watts"      : 500
+                }
+            }
+        ]
+    },
+    {
+        "type"     : "Downlighters",
+        "products" : [
+            {
+                "id"  : 6,
+                "new" : {
+                    "name"       : "4\" Downlighter",
+                    "image"      : "4 Downlighter.jpg",
+                    "calc_watts" : 10.5,
+                    "watts"      : 10
+                },
+                "old" : {
+                    "name"       : "2x9W CFL DOWNLIGHT",
+                    "image"      : "2x9W CFL DOWNLIGHT.png",
+                    "calc_watts" : 22,
+                    "watts"      : 22
+                }
+            },
+            {
+                "id"  : 7,
+                "new" : {
+                    "name"       : "6\" Downlighter",
+                    "image"      : "6 Downlighter.png",
+                    "calc_watts" : 18.9,
+                    "watts"      : 18
+                },
+                "old" : {
+                    "name"       : "2x18w CFL DOWNLIGHT",
+                    "image"      : "2x18w CFL DOWNLIGHT.png",
+                    "calc_watts" : 45,
+                    "watts"      : 45
+                }
+            },
+            {
+                "id"  : 8,
+                "new" : {
+                    "name"       : "8\" Downlighter",
+                    "image"      : "8 Downlighter.png",
+                    "calc_watts" : 26.25,
+                    "watts"      : 25
+                },
+                "old" : {
+                    "name"       : "2x26W CFL DOWNLIGHT",
+                    "image"      : "2x26W CFL DOWNLIGHT.png",
+                    "calc_watts" : 60,
+                    "watts"      : 60
+                }
+            }
+        ]
+    },
+    {
+        "type"     : "Lamps",
+        "products" : [
+            {
+                "id"  : 9,
+                "new" : {
+                    "name"       : "GU10 Lamp",
+                    "image"      : "GU10 Lamp.jpg",
+                    "calc_watts" : 6.3,
+                    "watts"      : 6
+                },
+                "old" : {
+                    "name"       : "35W GU10 LAMP",
+                    "image"      : "35W GU10 LAMP.jpg",
+                    "calc_watts" : 41,
+                    "watts"      : 41
+                }
+            },
+            {
+                "id"  : 10,
+                "new" : {
+                    "name"       : "MR16 Lamp",
+                    "image"      : "MR16 Lamp.png",
+                    "calc_watts" : 6.3,
+                    "watts"      : 6
+                },
+                "old" : {
+                    "name"       : "35W MR16 LAMP",
+                    "image"      : "35W MR16 LAMP.jpg",
+                    "calc_watts" : 41,
+                    "watts"      : 41
+                }
+            },
+            {
+                "id"  : 11,
+                "new" : {
+                    "name"       : "1.2m T8 Tube",
+                    "image"      : "1.2m T8 Tube.jpg",
+                    "calc_watts" : 16.8,
+                    "watts"      : 16
+                },
+                "old" : {
+                    "name"       : "40W T12 TUBE",
+                    "image"      : "40W T12 TUBE.jpg",
+                    "calc_watts" : 49,
+                    "watts"      : 49
+                }
+            },
+            {
+                "id"  : 12,
+                "new" : {
+                    "name"       : "1.2m T8 Tube",
+                    "image"      : "1.2m T8 Tube.jpg",
+                    "calc_watts" : 18.9,
+                    "watts"      : 18
+                },
+                "old" : {
+                    "name"       : "36W T8 TUBE",
+                    "image"      : "36W T8 TUBE.jpg",
+                    "calc_watts" : 45,
+                    "watts"      : 45.5
+                }
+            },
+            {
+                "id"  : 13,
+                "new" : {
+                    "name"       : "R63 Lamp",
+                    "image"      : "R63 Lamp.png",
+                    "calc_watts" : 8.4,
+                    "watts"      : 8
+                },
+                "old" : {
+                    "name"       : "70W R63 LAMP",
+                    "image"      : "70W R63 LAMP.jpg",
+                    "calc_watts" : 70,
+                    "watts"      : 70
+                }
+            },
+            {
+                "id"  : 14,
+                "new" : {
+                    "name"       : "R50 Lamp",
+                    "image"      : "R50 Lamp.png",
+                    "calc_watts" : 5.99,
+                    "watts"      : 5.7
+                },
+                "old" : {
+                    "name"       : "60W R50 LAMP",
+                    "image"      : "60W R50 LAMP.jpg",
+                    "calc_watts" : 60,
+                    "watts"      : 60
+                }
+            },
+            {
+                "id"  : 15,
+                "new" : {
+                    "name"       : "A60/GLS Lamp",
+                    "image"      : "A60-GLS Lamp.jpg",
+                    "calc_watts" : 9.98,
+                    "watts"      : 9.5
+                },
+                "old" : {
+                    "name"       : "100W GLS LAMP",
+                    "image"      : "100W GLS LAMP.jpg",
+                    "calc_watts" : 100,
+                    "watts"      : 100
+                }
+            },
+            {
+                "id"  : 16,
+                "new" : {
+                    "name"       : "GU10 ECO Lamp",
+                    "image"      : "GU10 ECO Lamp.jpg",
+                    "calc_watts" : 3.68,
+                    "watts"      : 3.5
+                },
+                "old" : {
+                    "name"       : "20W GU10 LAMP",
+                    "image"      : "20W GU10 LAMP.jpg",
+                    "calc_watts" : 23.52,
+                    "watts"      : 23.52
+                }
+            },
+            {
+                "id"  : 17,
+                "new" : {
+                    "name"       : "Par38 Lamp",
+                    "image"      : "Par38 Lamp.png",
+                    "calc_watts" : 19.95,
+                    "watts"      : 19
+                },
+                "old" : {
+                    "name"       : "100W PAR38 LAMP",
+                    "image"      : "100W PAR38 LAMP.jpg",
+                    "calc_watts" : 100,
+                    "watts"      : 100
+                }
+            },
+            {
+                "id"  : 18,
+                "new" : {
+                    "name"       : "1.5m T8 Tube",
+                    "image"      : "1.5m T8 Tube.jpg",
+                    "calc_watts" : 23.1,
+                    "watts"      : 22
+                },
+                "old" : {
+                    "name"       : "58W T8 TUBE",
+                    "image"      : "58W T8 TUBE.jpg",
+                    "calc_watts" : 71,
+                    "watts"      : 71
+                }
+            }
+        ]
+    }
+]

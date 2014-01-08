@@ -1,0 +1,26 @@
+<div class="section-header" ng-init="init()">
+
+
+    <h1 class="section-title">
+        <i class="fa fa-globe"></i> Branch Locator
+    </h1>
+    <hr>
+    <div class="clearfix"></div>
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs">
+        <li ng-class="{ active: $state.includes('branch.map')}"><a data-toggle="tab" href="#SiteChildTab" ng-click="display('map')">
+            Map</a>
+        </li>
+        <li ng-class="{ active: $state.includes('branch.branches')}"><a data-toggle="tab" href="#SiteChildTab" ng-click="display('branches')">
+            Branch List</a>
+        </li>
+
+    </ul>
+</div>
+<!-- Tab panes -->
+<div class="tab-content" style="z-index: 1">
+
+    <div ui-view="branch-content" ng-animate="{enter:'fade-enter'}" style="padding: 5px"></div>
+
+</div>

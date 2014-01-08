@@ -1,0 +1,32 @@
+[
+    {
+        "term"       : "Watts and Lumens",
+        "definition" : "The common misconception is to look at the wattage to determine the light output of a bulb. Wattage isn't an indication of brightness, but a measurement of how much energy the bulb draws. Lumens (lm) is the real measurement of brightness provided by a light source and is the number you should look for when replacing your existing light bulb with an LED. A traditional 100-watt bulb produces about 1200 lumens, try and get an LED as close to that number as possible."
+    },
+    {
+        "term"       : "Lumens (Lm) per Watt (also known as Efficacy)",
+        "definition" : "If you take your lumen figure and divide it by the Wattage of the lamp then you can see how much light you are producing with one Watt, you are saving energy and cost. For example, a 100W incandescent produces 1200 lumens (1200 divided by 100 = 12 Lm/Watt). Our 9.5W LED produces 806 lumens (806 divided by 9.5 = 85 Lm/Watt. Simply put, the higher the efficacy the more light is produced using less Wattage and thus saving energy."
+    },
+    {
+        "term"       : "Colours",
+        "definition" : "Colour is another important factor in choosing the right light source. The measurement of colour is “colour temperature” and is measured in degrees Kelvin (K). 2700K -3000k is a warm colour temperature and matches what you are used to with an incandescent bulb. Look for colour temperatures in the 4000K-5000K range in rooms where you want the clearest, whitest light."
+    },
+    {
+        "term"       : "Dimmable",
+        "definition" : "Unlike incandescent, not all LED bulbs are dimmable and not all traditional dimming switches are compatible with LEDs. If you would like your LED to be dimmable make sure the bulb is dimmable and that you have an LED compatible dimmer unit. Voltex stock a range of Shuttle LED dimmer units which can be bought at any of our branches."
+    },
+    {
+        "term"       : "Beam Angle",
+        "definition" : "LED’s are available in a variety of beam angles, look closely on the box for the rated beam angle. The beam angle is the degree of width that light is emitted from a light source. A wide beam angle “floods” an area with light and is called a flood light where as a narrow beam angle is a concentrated “spot” of light, hence spot light. For highlighting pictures on a wall or sculptures use an LED spot with a beam angle of 25-35⁰ and for and for general lighting use a LED with a beam angle of 60⁰ or more."
+    },
+    {
+        "term"       : "Power Factor",
+        "definition" : "For a more efficient lighting solution, you need to look at getting an LED product with a power factor of over 0.85. The higher the figure, the more efficient the source is."
+    },
+    {
+        "term"       : "Colour Rendering Index (CRI)",
+        "definition" : "Always look for a CRI that is <80 as it means that the colour being produced by the product is more natural than artificial. The range of measurement is from 1-100, 100 being sunlight, therefore, the closer you get to 100 the more natural the appearance of the light."
+    }
+]
+
+

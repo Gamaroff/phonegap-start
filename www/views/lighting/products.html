@@ -1,0 +1,86 @@
+<div ng-init="init()"></div>
+
+
+<select class="form-control" name="typesList" id="typesList" style="margin-right: 10px" ng-change="getType()" ng-model="viewModel.selected_type" ng-options="type.name for type in viewModel.types"></select>
+
+<div class="clearfix"></div>
+<hr>
+
+<ul class="list-group">
+    <li ng-repeat="product in viewModel.product_types | productTypeFilter:viewModel.selected_type">
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="panel-info">
+                    <div class="media">
+                        <a class="pull-left" ui-sref="lighting.product({productId : product.id})">
+                            <img class="media-object img-rounded" style="width: 50px" src="images/lighting/products/{{ product.old.image }}" alt="{{product.name}}">
+                        </a>
+
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                <a ui-sref="lighting.product({productId : product.id})" class="product-header">{{ product.old.name }}</a>
+                            </h4>
+                            <address>
+                                <strong>Watts:</strong> {{ product.old.watts }}
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </li>
+</ul>
+
+<!--<div class="list-group">-->
+<!--<a href="#productModal" data-toggle="modal" ng-click="selectProduct(product)"-->
+<!--class="list-group-item"-->
+<!--ng-repeat="product in viewModel.product_types | productTypeFilter:viewModel.selected_type">-->
+<!--<p class="list-group-item-text">{{ product.old.name }}</p>-->
+
+<!--<div class="media">-->
+<!--<a class="pull-left" href="#">-->
+<!--<img class="media-object"-->
+<!--src="images/lighting/products/{{ product.old.image }}"-->
+<!--alt="{{viewModel.selected_product.name}}">-->
+<!--</a>-->
+
+<!--<div class="media-body">-->
+<!--<h4 class="media-heading">{{ product.old.name }}</h4>-->
+<!--</div>-->
+<!--</div>-->
+<!--</a>-->
+
+<!--</div>-->
+
+<div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">{{viewModel.selected_product.old.name}}</h4>
+            </div>
+            <div class="modal-body">
+
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="images/lighting/products/{{ viewModel.selected_product.old.image }}" alt="{{viewModel.selected_product.name}}">
+                    </a>
+
+                    <div class="media-body">
+                        <h4 class="media-heading">Product Details</h4>
+                        <address>
+                            <strong>Watts:</strong> {{ viewModel.selected_product.old.watts }}
+                        </address>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+<div ng-init="init()"></div>
+
+<small style="color: white">Changing to LED’s can be a challenging task with so many different wattages,
+    colours, sizes and manufactures available. Find out what you need to know about
+    choosing the right LED for you. LEDs are the future to lighting as it is more efficient,
+    has a better longevity, and cuts down on power costs. Changing your light fitting or
+    bulbs these days is an investment for the future and also helps fight against the raise
+    in electricity costs.
+</small>
+
+<hr>
+
+<div class="list-group">
+    <a href="#guideModal" data-toggle="modal" ng-click="selectGuide(guide)" class="list-group-item" ng-repeat="guide in viewModel.guide">
+        <p class="list-group-item-text">{{ guide.term }}</p>
+    </a>
+
+</div>
+
+
+<div class="modal fade" id="guideModal" tabindex="-1" role="dialog" aria-labelledby="guideModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">{{viewModel.selected_guide.term}}</h4>
+            </div>
+            <div class="modal-body">
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        {{viewModel.selected_guide.definition}}
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+</div>

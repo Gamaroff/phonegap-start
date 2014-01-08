@@ -1,0 +1,109 @@
+<div ng-init="init()"></div>
+
+<div class="row">
+    <div class="col-sm-6 col-md-6">
+
+        <div class="panel panel-default">
+            <div class="panel-heading">Old Technology</div>
+            <div class="panel-body">
+                <div class="panel-info">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object img-rounded" style="width: 50px" src="images/lighting/products/{{ viewModel.product.old.image }}" alt="{{ viewModel.product.old.name }}">
+                        </a>
+
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                {{ viewModel.product.old.name }}
+                            </h4>
+                            <address>
+                                <strong>Watts:</strong> {{ viewModel.product.old.watts }}
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="col-sm-6 col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">New Technology</div>
+            <div class="panel-body">
+                <div class="panel-info">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object img-rounded" style="width: 50px" src="images/lighting/products/{{ viewModel.product.new.image }}" alt="{{ viewModel.product.new.name }}">
+                        </a>
+
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                {{ viewModel.product.new.name }}
+                            </h4>
+                            <address>
+                                <strong>Watts:</strong> {{ viewModel.product.new.watts }}
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+    <table class="table">
+        <thead>
+        <tr>
+            <td></td>
+            <th class="white-column-header">{{ viewModel.product.old.name }}</th>
+            <th class="white-column-header">{{ viewModel.product.new.name }}</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th class="white-header">Number of Lamps installed</th>
+            <td>
+                <input type="text" ng-model="viewModel.calcs.lamps.old" class="form-control col-xs-3" placeholder="">
+            </td>
+            <td>
+                <input type="text" ng-model="viewModel.calcs.lamps.new" class="form-control col-xs-3" placeholder="">
+            </td>
+        </tr>
+        <tr>
+            <th class="white-header">Burning hours per day</th>
+            <td>
+                <input type="text" ng-model="viewModel.calcs.hours.old" class="form-control col-xs-3" placeholder="">
+            </td>
+            <td>
+                <input type="text" ng-model="viewModel.calcs.hours.new" class="form-control col-xs-3" placeholder="">
+            </td>
+        </tr>
+        <tr>
+            <th class="white-header">Cost per kWh</th>
+            <td>
+                <input type="text" ng-model="viewModel.calcs.cost_kwh.old" class="form-control col-xs-3" placeholder="">
+            </td>
+            <td>
+                <input type="text" ng-model="viewModel.calcs.cost_kwh.new" class="form-control col-xs-3" placeholder="">
+            </td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr class="danger">
+            <th>Electricity cost per year</th>
+            <td>R {{ viewModel.calcs.cost_year.old | number:2 }}</td>
+            <td>R {{ viewModel.calcs.cost_year.new | number:2 }}</td>
+        </tr>
+        <tr class="success">
+            <th>Savings</th>
+            <td colspan="2"><strong>R {{ viewModel.calcs.saving | number:2 }}</strong></td>
+        </tr>
+        </tfoot>
+    </table>
+</div>
+<div>
+    <a ui-sref="lighting.products" class="btn btn-success form-control"><i class="fa fa-angle-left"></i> back</a>
+</div>

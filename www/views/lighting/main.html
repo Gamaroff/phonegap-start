@@ -1,0 +1,26 @@
+<div class="section-header">
+    <h1 class="section-title">
+    <i class="fa fa-sun-o"></i> Energy Efficient Lighting
+    </h1>
+    <hr>
+    <div class="clearfix"></div>
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs">
+        <li ng-class="{ active: $state.includes('lighting.products') || $state.includes('lighting.product')}"><a data-toggle="tab" href="#SiteChildTab" ng-click="display('products')">
+            Replace</a>
+        </li>
+        <li ng-class="{ active: $state.includes('lighting.guide')}"><a data-toggle="tab" href="#SiteChildTab" ng-click="display('guide')">
+            LED Guide</a>
+        </li>
+        <li ng-class="{ active: $state.includes('lighting.terminology')}"><a data-toggle="tab" href="#SiteChildTab" ng-click="display('terminology')">
+            Terms</a>
+        </li>
+    </ul>
+</div>
+<!-- Tab panes -->
+<div class="tab-content" style="z-index: 1">
+
+    <div ui-view="lighting-content" ng-animate="{enter:'fade-enter'}" style="padding: 5px"></div>
+
+</div>

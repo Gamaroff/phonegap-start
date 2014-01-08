@@ -1,0 +1,35 @@
+[
+    {
+        "term"       : "Watts (W)",
+        "definition" : "Watts describes the amount of power that is consumed when the light bulb is switched on."
+    },
+    {
+        "term"       : "Kilowatt per hour (KW/H)",
+        "definition" : "One-thousand Watts (1 000 W) equals one kiloWatt (1kW). When you are charged for electricity, your bill will usually tell you how many units were used during the month. One unit of electricity is exactly equal to 1 000 watts of power used for 1 hour- or kWh, which suppliers use to determine your costs."
+    },
+    {
+        "term"       : "Lumens (LM)",
+        "definition" : "A measure of the luminous flux or quantity of light being emitted by a source. I.e. How much light is being produced by the fitting or lamp."
+    },
+    {
+        "term"       : "Lux (lx)",
+        "definition" : "Lux is the measurement of light intensity. For example, a bright office requires 400lx of illumination."
+    },
+    {
+        "term"       : "Colour Rendering Index (CRI)",
+        "definition" : "An international system used to rate a lamp's ability to render object colors. The higher the  CRI (based upon a 0-100 scale) the richer colors generally appear. CRI ratings of various lamps may be compared, but a numerical comparison is only valid if the lamps are close in color temperature. CRI differences among lamps are not usually significant (visible to the eye) unless the difference is more than 3-5 points."
+    },
+    {
+        "term"       : "Colour Temperature",
+        "definition" : "A number indicating the degree of \"yellowness\" or \"blueness\" of a white light source. The higher the color temperature the whiter or bluer the light will be, the lower the temperature yellower the light will be. Colour temperature is measured in Kelvin."
+    },
+    {
+        "term"       : "Power Factor (PF)",
+        "definition" : "Measurement of the relationship between the AC source voltage and current. High power factor LED require less AC operating current at the same wattage than an equivalent low power factor LED. Formula: Power Factor equals Input Watts divided by the product of Line Volts times Line Amps (Volt Amps or VA)."
+    },
+    {
+        "term"       : "Ingress protection rating (IP)",
+        "definition" : "Used to define levels of sealing effectiveness of electrical enclosures against intrusion from foreign bodies (dust, soil etc) and moisture. i.e. an IP68 fitting would have complete protection against the ingress of dust and water."
+    }
+]
+

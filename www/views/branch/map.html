@@ -1,0 +1,7 @@
+<div ng-init="init()"></div>
+
+<select name="regions" id="regions" class="form-control" style="margin-right: 10px" ng-change="getRegion()" ng-model="viewModel.selected_region" ng-options="region.name for region in viewModel.regions"></select>
+
+<div class="clearfix"></div>
+
+<gmap id="myMap" zoom="15" center="viewModel.center" points="viewModel.points" class="branch-map"></gmap>
